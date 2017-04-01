@@ -39,6 +39,13 @@ class Address
      */
     protected $locality;
 
+    /**
+     * PostalCode
+     *
+     * @var PostalCode
+     */
+    protected $postalCode;
+
 
     /**
      * Get id
@@ -120,5 +127,29 @@ class Address
     public function getLocality()
     {
         return $this->locality;
+    }
+
+    /**
+     * Set the postal code
+     *
+     * @param PostalCode $postalCode
+     *
+     * @return Address
+     */
+    public function setPostalCode(PostalCode $postalCode = null)
+    {
+        $this->postalCode = $postalCode;
+
+        return $this;
+    }
+
+    /**
+     * Get the postal code
+     *
+     * @return PostalCode
+     */
+    public function getPostalCode()
+    {
+        return $this->postalCode;
     }
 }
