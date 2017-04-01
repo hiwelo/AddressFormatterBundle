@@ -6,9 +6,6 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Address
- *
- * @ORM\Table(name="address")
- * @ORM\Entity(repositoryClass="CitizenKey\AddressFormatterBundle\Repository\AddressRepository")
  */
 class Address
 {
@@ -34,6 +31,13 @@ class Address
      * @var Region
      */
     protected $region;
+
+    /**
+     * Locality
+     *
+     * @var Locality
+     */
+    protected $locality;
 
 
     /**
@@ -92,5 +96,29 @@ class Address
     public function getRegion()
     {
         return $this->region;
+    }
+
+    /**
+     * Set locality
+     *
+     * @param Locality $locality
+     *
+     * @return Address
+     */
+    public function setLocality(Locality $locality = null)
+    {
+        $this->locality = $locality;
+
+        return $this;
+    }
+
+    /**
+     * Get locality
+     *
+     * @return Locality
+     */
+    public function getLocality()
+    {
+        return $this->locality;
     }
 }
