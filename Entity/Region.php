@@ -19,17 +19,25 @@ class Region
      */
     private $name;
 
+    /**
+     * Code of the Region
+     *
+     * @var string
+     */
+    private $code;
+
 
     /**
      * Region constructor
      *
-     * @param string $name         Name of the region
+     * @param string $name Name of the region
      *
      * @return void
      */
-    public function __construct($name = null)
+    public function __construct($name = null, $code = null)
     {
         $this->setName($name);
+        $this->setCode($code);
     }
 
     /**
@@ -62,6 +70,30 @@ class Region
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get code of the region
+     *
+     * @return string
+     */
+    public function getCode()
+    {
+        return $this->code;
+    }
+
+    /**
+     * Set code of the region
+     *
+     * @param string $code
+     *
+     * @return Region
+     */
+    public function setCode($code)
+    {
+        $this->code = $code;
 
         return $this;
     }

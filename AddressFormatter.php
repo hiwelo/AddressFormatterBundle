@@ -23,7 +23,7 @@ class AddressFormatter
     {
         return (new Address())
             ->setCountry((new Country($args['countryName'], $args['countryCode'])))
-            ->setRegion((new Region($args['region'])))
+            ->setRegion((new Region($args['regionName'], $args['regionCode'])))
             ->setLocality((new Locality($args['locality'])))
             ->setPostalCode((new PostalCode($args['postalcode'])))
             ->setStreet((new Street($args['street'])))
