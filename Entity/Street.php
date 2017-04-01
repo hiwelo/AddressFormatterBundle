@@ -65,4 +65,15 @@ class Street
 
         return $this;
     }
+
+    /**
+     * Returns the street name when the user asks to display the complete object
+     * with twig
+     *
+     * @return string Street name
+     */
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }

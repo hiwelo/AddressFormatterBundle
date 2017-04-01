@@ -177,4 +177,15 @@ class Country
     {
         return $this->regions;
     }
+
+    /**
+     * Returns the country name when the user asks to display the complete object
+     * with twig
+     *
+     * @return string Country name
+     */
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }

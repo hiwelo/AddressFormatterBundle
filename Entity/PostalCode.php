@@ -65,4 +65,15 @@ class PostalCode
 
         return $this;
     }
+
+    /**
+     * Returns the postal code when the user asks to display the complete object
+     * with twig
+     *
+     * @return string Postal code
+     */
+    public function __toString()
+    {
+        return $this->getCode();
+    }
 }

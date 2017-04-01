@@ -65,4 +65,15 @@ class StreetNumber
 
         return $this;
     }
+
+    /**
+     * Returns the street number when the user asks to display the complete object
+     * with twig
+     *
+     * @return string Street number
+     */
+    public function __toString()
+    {
+        return $this->getStreetNumber();
+    }
 }

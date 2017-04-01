@@ -65,4 +65,15 @@ class Locality
 
         return $this;
     }
+
+    /**
+     * Returns the name of the city when the user asks to display the complete object
+     * with twig
+     *
+     * @return string City name
+     */
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }

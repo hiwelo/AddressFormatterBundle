@@ -65,4 +65,15 @@ class Region
 
         return $this;
     }
+
+    /**
+     * Returns the region name when the user asks to display the complete object
+     * with twig
+     *
+     * @return string Region name
+     */
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }
