@@ -46,6 +46,13 @@ class Address
      */
     protected $postalCode;
 
+    /**
+     * Street
+     *
+     * @var Street
+     */
+    protected $street;
+
 
     /**
      * Get id
@@ -151,5 +158,29 @@ class Address
     public function getPostalCode()
     {
         return $this->postalCode;
+    }
+
+    /**
+     * Set street
+     *
+     * @param Street $street
+     *
+     * @return Address
+     */
+    public function setStreet(Street $street = null)
+    {
+        $this->street = $street;
+
+        return $this;
+    }
+
+    /**
+     * Get street
+     *
+     * @return Street
+     */
+    public function getStreet()
+    {
+        return $this->street;
     }
 }
