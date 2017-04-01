@@ -28,6 +28,13 @@ class Address
      */
     protected $country;
 
+    /**
+     * Region
+     *
+     * @var Region
+     */
+    protected $region;
+
 
     /**
      * Get id
@@ -61,5 +68,29 @@ class Address
     public function getCountry()
     {
         return $this->country;
+    }
+
+    /**
+     * Set region
+     *
+     * @param Region $region
+     *
+     * @return Address
+     */
+    public function setRegion(Region $region = null)
+    {
+        $this->region = $region;
+
+        return $this;
+    }
+
+    /**
+     * Get region
+     *
+     * @return Region
+     */
+    public function getRegion()
+    {
+        return $this->region;
     }
 }
