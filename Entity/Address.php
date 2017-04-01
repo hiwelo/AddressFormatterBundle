@@ -53,6 +53,13 @@ class Address
      */
     protected $street;
 
+    /**
+     * Number in the street
+     *
+     * @var StreetNumber
+     */
+    protected $streetNumber;
+
 
     /**
      * Get id
@@ -182,5 +189,29 @@ class Address
     public function getStreet()
     {
         return $this->street;
+    }
+
+    /**
+     * Set the number in the street
+     *
+     * @param StreetNumber $streetNumber
+     *
+     * @return Address
+     */
+    public function setStreetNumber(StreetNumber $streetNumber = null)
+    {
+        $this->streetNumber = $streetNumber;
+
+        return $this;
+    }
+
+    /**
+     * Get the number in the street
+     *
+     * @return StreetNumber
+     */
+    public function getStreetNumber()
+    {
+        return $this->streetNumber;
     }
 }
