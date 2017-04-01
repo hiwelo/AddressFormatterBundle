@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormattingBundle\Tests\Controller;
+namespace CitizenKey\AddressFormatterBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

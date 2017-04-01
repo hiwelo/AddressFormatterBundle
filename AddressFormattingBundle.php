@@ -1,9 +1,9 @@
 <?php
 
-namespace CitizenKey\AddressFormattingBundle;
+namespace CitizenKey\AddressFormatterBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AddressFormattingBundle extends Bundle
+class AddressFormatterBundle extends Bundle
 {
 }

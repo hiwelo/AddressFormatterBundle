@@ -22,7 +22,7 @@ public function registerBundles()
 {
     $bundles = array(
         //...
-        new CitizenKey\AddressFormattingBundle\AddressFormattingBundle(),
+        new CitizenKey\AddressFormatterBundle\AddressFormattingBundle(),
     );
 }
 ```

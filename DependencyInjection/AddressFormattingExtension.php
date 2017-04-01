@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormattingBundle\DependencyInjection;
+namespace CitizenKey\AddressFormatterBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
