@@ -22,7 +22,7 @@ public function registerBundles()
 {
     $bundles = array(
         //...
-        new Hiwelo\AddressFormatterBundle\AddressFormattingBundle(),
+        new Hiwelo\AddressFormatterBundle\AddressFormatterBundle(),
     );
 }
 ```
