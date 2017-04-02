@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle\Controller;
+namespace Hiwelo\AddressFormatterBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

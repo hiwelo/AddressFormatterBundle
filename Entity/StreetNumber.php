@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle\Entity;
+namespace Hiwelo\AddressFormatterBundle\Entity;
 
 /**
  * StreetNumber

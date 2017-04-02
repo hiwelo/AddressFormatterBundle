@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle\Tests\Controller;
+namespace Hiwelo\AddressFormatterBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

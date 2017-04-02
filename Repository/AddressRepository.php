@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle\Repository;
+namespace Hiwelo\AddressFormatterBundle\Repository;
 
 /**
  * AddressRepository

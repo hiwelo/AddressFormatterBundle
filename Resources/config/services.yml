@@ -1,4 +1,4 @@
 services:
     address.formatter:
-        class: CitizenKey\AddressFormatterBundle\Service\AddressFormatter
+        class: Hiwelo\AddressFormatterBundle\Service\AddressFormatter
         arguments: ['@service_container']

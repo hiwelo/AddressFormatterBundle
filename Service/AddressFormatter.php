@@ -1,14 +1,14 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle\Service;
+namespace Hiwelo\AddressFormatterBundle\Service;
 
-use CitizenKey\AddressFormatterBundle\Entity\Address;
-use CitizenKey\AddressFormatterBundle\Entity\Country;
-use CitizenKey\AddressFormatterBundle\Entity\Locality;
-use CitizenKey\AddressFormatterBundle\Entity\PostalCode;
-use CitizenKey\AddressFormatterBundle\Entity\Region;
-use CitizenKey\AddressFormatterBundle\Entity\Street;
-use CitizenKey\AddressFormatterBundle\Entity\StreetNumber;
+use Hiwelo\AddressFormatterBundle\Entity\Address;
+use Hiwelo\AddressFormatterBundle\Entity\Country;
+use Hiwelo\AddressFormatterBundle\Entity\Locality;
+use Hiwelo\AddressFormatterBundle\Entity\PostalCode;
+use Hiwelo\AddressFormatterBundle\Entity\Region;
+use Hiwelo\AddressFormatterBundle\Entity\Street;
+use Hiwelo\AddressFormatterBundle\Entity\StreetNumber;
 
 class AddressFormatter
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle;
+namespace Hiwelo\AddressFormatterBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
