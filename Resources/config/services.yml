@@ -1,4 +1,4 @@
 services:
     address.formatter:
         class: Hiwelo\AddressFormatterBundle\Service\AddressFormatter
-        arguments: ['@service_container']
+        arguments: ['@twig']
