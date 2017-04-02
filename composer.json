@@ -1,0 +1,26 @@
+{
+    "name": "hiwelo/address-formatter-bundle",
+    "description": "International postal address formatting bundle for Symfony",
+    "type": "symfony-bundle",
+    "license": "gpl-3.0",
+    "keywords": ["postal", "address", "geocode", "symfony", "symfony-bundle", "bundle"],
+    "authors": [
+        {
+            "name": "Damien Senger",
+            "email": "damien@raccoon.studio"
+        }
+    ],
+    "require": {
+      "php": "~5.5|~7.0",
+      "symfony/symfony": "~2.8|~3.0",
+      "doctrine/doctrine-bundle": "~1.6",
+      "doctrine/orm": "~2.5",
+      "twig/twig": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {"Hiwelo\\AddressFormatterBundle\\": ""}
+    }
+}
