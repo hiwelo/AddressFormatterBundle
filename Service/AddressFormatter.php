@@ -1,6 +1,6 @@
 <?php
 
-namespace CitizenKey\AddressFormatterBundle;
+namespace CitizenKey\AddressFormatterBundle\Service;
 
 use CitizenKey\AddressFormatterBundle\Entity\Address;
 use CitizenKey\AddressFormatterBundle\Entity\Country;

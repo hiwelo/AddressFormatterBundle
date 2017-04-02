@@ -1,7 +1,4 @@
 services:
-#    address_formatting.example:
-#        class: CitizenKey\AddressFormatterBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
     address.formatter:
-        class: CitizenKey\AddressFormatterBundle\AddressFormatter
+        class: CitizenKey\AddressFormatterBundle\Service\AddressFormatter
         arguments: ['@service_container']
